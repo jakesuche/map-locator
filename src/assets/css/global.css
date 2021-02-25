@@ -1,0 +1,20 @@
+.pac-item{
+    padding:10px!important;
+    font-size:16px!important;
+    cursor:pointer;
+}
+
+.pac-icon{
+    display: none!important;
+}
+
+.pac-logo::after{
+    background: none;
+}
+.pac-item:hover{
+    background:#ececec
+}
+
+.pac-item-query{
+    font-size: 16px;
+}
