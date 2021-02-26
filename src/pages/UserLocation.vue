@@ -26,7 +26,7 @@
                 ></i>
               </div>
             </div>
-            <button type="button" class="ui button ">Go</button>
+            <button type="button" class="ui button "><router-link to="/close-by">Get near by stuffs</router-link></button>
           </div>
         </form>
       </div>
@@ -127,7 +127,7 @@ export default {
       new google.maps.Marker({
         position: new google.maps.LatLng(lat, lng),
         map: map,
-        icon: this.picture,
+        
       });
     },
     findCloseBuyButtonPressed() {
@@ -143,6 +143,9 @@ export default {
 };
 </script>
 <style scoped>
+a{
+  color:white;
+}
 .ui.button,
 .dot.circle.icon {
   background: #ff5a5f;

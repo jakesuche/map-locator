@@ -27,7 +27,7 @@
             <div class="two fields">
               <div class="field">
                 <select name="" id="" v-model="type">
-                  <option value="restaurant">Resturant</option>
+                  <option value="restaurant" selected >Resturant</option>
                   <option value="club">club</option>
                   <option value="church">church</option>
                   <option value="hospital">Hospital</option>
@@ -35,10 +35,11 @@
               </div>
               <div class="field">
                 <select v-model="radius" name="" id="">
-                  <option value="5">5KM</option>
+                  <option value ="5" >5KM</option>
                   <option value="10">10KM</option>
                   <option value="15">15KM</option>
                   <option value="20">20KM</option>
+        
                 </select>
               </div>
             </div>
