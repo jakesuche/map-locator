@@ -27,6 +27,8 @@
               </div>
             </div>
             <button type="button" class="ui button "><router-link to="/close-by">Get near by stuffs</router-link></button>
+            <button type="button" class="ui button "><router-link to="/distance">Get Distance btw two routes</router-link></button>
+        
           </div>
         </form>
       </div>
